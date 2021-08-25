@@ -5,7 +5,9 @@ lvim.format_on_save = true
 lvim.lint_on_save = true
 lvim.colorscheme = "onedark"
 lvim.transparent_window = true
-lvim.relativenumber = true
+-- lvim.relativenumber = true
+-- set relativenumber
+vim.opt.relativenumber = true
 lvim.hl_search = true
 lvim.showmode = true
 lvim.scrolloff = 8
